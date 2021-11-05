@@ -6,13 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/Arian"
+        android:layout_width="112dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Arian"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="400dp" />
 
+    <Button
+        android:id="@+id/Gabriel"
+        android:layout_width="112dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Gabriel"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/Cristian"
+        android:layout_width="112dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#2034B5"
+        android:text="Cristian"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/Angel"
+        android:layout_width="112dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Angel"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="239dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
